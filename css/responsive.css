@@ -1,0 +1,74 @@
+@media (max-width: 540px){
+    .accordion{
+        width: 90%;
+        height: 70%;
+    }
+
+    .card{
+        flex-direction: column;
+        background-image: url('../images/bg-pattern-mobile.svg');
+        background-position: center center;
+
+    }
+
+    .box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: unset;
+        left: unset;
+    }
+    .desktop-img{
+        display: none;
+    }
+
+    .card{
+        overflow: hidden;
+    }
+    .faq{
+        width: 100%;
+        padding: 0 24px;
+        position: absolute;
+        top: 21%;
+    }
+
+    .item.active .answer{
+        font-size: 12px;
+        height: 30px;
+    }
+
+    h1{
+        text-align: center;
+        position: unset;
+    }
+
+    .items{
+        width: 100%;
+        margin: unset;
+        position: unset;
+    }
+
+    .mobile-img{
+        width: 70%;
+        transform: translateY(-60%);
+    }
+    .attribution span{
+        display: block;
+    }
+
+}
+
+@media (min-width: 541px){
+    .mobile-img{
+        display: none;
+    }
+
+    .card{
+        overflow: hidden;
+    }
+
+    .box .desktop-img{
+        width: unset;
+        transform: unset;
+    }
+}
